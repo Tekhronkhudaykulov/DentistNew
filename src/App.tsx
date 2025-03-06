@@ -1,4 +1,3 @@
-import { useState } from "react";
 import Accordion from "./Accordion";
 import "./App.css";
 import { IoIosCall } from "react-icons/io";
@@ -7,11 +6,7 @@ import Form from "./Form";
 import Reviews from "./Reviews";
 
 function App() {
-  const [openIndex, setOpenIndex] = useState(null);
 
-  const toggleAccordion = (index: any) => {
-    setOpenIndex(openIndex === index ? null : index); // One at a time opens, others close
-  };
 
   const accordions = [
     {
