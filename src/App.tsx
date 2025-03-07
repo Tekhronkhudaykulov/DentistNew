@@ -52,16 +52,16 @@ function App() {
             <div className="md:flex items-center justify-between w-full mt-[20px]">
               <div className="flex items-center md:gap-x-[10px] gap-x-[5px] md:mt-[10px] mt-[20px] md:text-[20px] text-[16px] w-max md:h-[60px] h-[50px] bg-gray-500 md:px-[35px] px-[10px]  md:py-[20px] py-[10px] text-white rounded-[12px]">
                 <IoIosCall fontSize={20} />
-                <a href="tel:+998937197771">Позвонить +998 93 719 77 71</a>
+                <a href="tel:+998937197771">Позвонить +998 99 952 77 97</a>
               </div>
-              <div className="md:mt-0 mt-[20px]">
+              {/* <div className="md:mt-0 mt-[20px]">
                 <p className="font-bold text-white">
                   Адрес: Юнусабадский район 13-квартал 4-дом
                 </p>
                 <p className="font-bold text-white">
                   Ориентир, 📌( Мегапланет), 📍Ринок (Ахмад донищ )
                 </p>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>
