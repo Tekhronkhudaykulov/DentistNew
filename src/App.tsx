@@ -46,22 +46,22 @@ function App() {
             <p className=" md:text-[35px] text-white text-[20px] font-bold">
               {/* зрослая стоматология */}
             </p>
-            <p className="text-[20px] text-white md:block hidden w-[1000px] mt-[20px] leading-[30px]">
+            <p className="text-[12px] md:text-[18px] text-white md:block  md:w-[1000px] mt-[20px] md:leading-[30px]">
             Стоматология — это отрасль медицины, занимающаяся диагностикой, лечением и профилактикой заболеваний зубов, дёсен и полости рта. Она охватывает широкий спектр направлений, включая терапевтическую, хирургическую, ортопедическую, ортодонтическую и детскую стоматологию.
             </p>
-            <div className="md:flex items-center justify-between w-full mt-[20px]">
-              <div className="flex items-center md:gap-x-[10px] gap-x-[5px] md:mt-[10px] mt-[20px] md:text-[20px] text-[16px] w-max md:h-[60px] h-[50px] bg-gray-500 md:px-[35px] px-[10px]  md:py-[20px] py-[10px] text-white rounded-[12px]">
+            <div className="md:flex items-center justify-between w-full  md:mt-[20px]">
+              <div className="flex items-center md:gap-x-[10px] gap-x-[5px] md:mt-[10px] mt-[20px] md:text-[20px] text-[16px] w-max md:h-[60px] h-[50px] bg-blue-500 md:px-[35px] px-[10px]  md:py-[20px] py-[10px] text-white rounded-[12px]">
                 <IoIosCall fontSize={20} />
                 <a href="tel:+998937197771">Позвонить +998 99 952 77 97</a>
               </div>
-              {/* <div className="md:mt-0 mt-[20px]">
+              <div className="md:mt-0 mt-[20px]">
                 <p className="font-bold text-white">
-                  Адрес: Юнусабадский район 13-квартал 4-дом
+                  Адрес: Юнусабадский район 13-квартал 
                 </p>
-                <p className="font-bold text-white">
+                {/* <p className="font-bold text-white">
                   Ориентир, 📌( Мегапланет), 📍Ринок (Ахмад донищ )
-                </p>
-              </div> */}
+                </p> */}
+              </div>
             </div>
           </div>
         </div>
