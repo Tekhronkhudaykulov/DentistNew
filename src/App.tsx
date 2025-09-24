@@ -57,9 +57,7 @@ function App() {
                 <a href="tel:+998999527797">Позвонить +998 99 952 77 97</a>
               </div>
               <div className="md:mt-0 mt-[20px]">
-                <p className="font-bold text-white">
-                  Адрес: Юнусабадский район 13-квартал
-                </p>
+                <p className="font-bold text-white text-[30px] ">Office 1</p>
                 {/* <p className="font-bold text-white">
                   Ориентир, 📌( Мегапланет), 📍Ринок (Ахмад донищ )
                 </p> */}
