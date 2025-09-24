@@ -68,7 +68,7 @@ function App() {
           </div>
         </div>
       </section>
-      <section className="md:mt-[20px] mt-0">
+      <section className=" mt-0">
         {/* <iframe
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2994.1336421031356!2d69.2929534617251!3d41.371181087262826!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38aef311165725cf%3A0x12a018c1fd2fdf7a!2sStomatologiya%2024%2F7!5e0!3m2!1sen!2s!4v1726210472459!5m2!1sen!2s"
           width="100%"
@@ -82,11 +82,21 @@ function App() {
           loading="lazy"
         ></iframe> */}
 
-        <iframe
-          src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d2994.1377896397717!2d69.29193207605879!3d41.37109097130205!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zNDHCsDIyJzE1LjkiTiA2OcKwMTcnNDAuMiJF!5e0!3m2!1sen!2s!4v1758723184815!5m2!1sen!2s"
-          width="100%"
-          height="500"
-        ></iframe>
+        <div>
+          <div className="text-[25px] font-semibold text-center bg-blue-500 w-full text-white py-2">
+            Office 1
+          </div>
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d2994.1377896397717!2d69.29193207605879!3d41.37109097130205!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zNDHCsDIyJzE1LjkiTiA2OcKwMTcnNDAuMiJF!5e0!3m2!1sen!2s!4v1758723184815!5m2!1sen!2s"
+            width="100%"
+            height="500"
+            title="Office 1"
+            style={{ border: 0 }}
+            loading="lazy"
+            allowFullScreen
+            referrerPolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
       </section>
       <section
         className="container mx-[auto] pt-[20px]"
