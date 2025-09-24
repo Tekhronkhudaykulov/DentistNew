@@ -69,10 +69,17 @@ function App() {
         </div>
       </section>
       <section className="md:mt-[20px] mt-0">
-        <iframe
+        {/* <iframe
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2994.1336421031356!2d69.2929534617251!3d41.371181087262826!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38aef311165725cf%3A0x12a018c1fd2fdf7a!2sStomatologiya%2024%2F7!5e0!3m2!1sen!2s!4v1726210472459!5m2!1sen!2s"
           width="100%"
           height="500"
+        ></iframe> */}
+
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d374.2665790173048!2d69.29424023857304!3d41.3712030313337!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38aef30f565981df%3A0xf4e59f2d40b27d38!2sDenta%20Me!5e0!3m2!1sen!2s!4v1758722488766!5m2!1sen!2s"
+          width="100%"
+          height="500"
+          loading="lazy"
         ></iframe>
       </section>
       <section
