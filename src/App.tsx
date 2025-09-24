@@ -75,11 +75,17 @@ function App() {
           height="500"
         ></iframe> */}
 
-        <iframe
+        {/* <iframe
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d374.2665790173048!2d69.29424023857304!3d41.3712030313337!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38aef30f565981df%3A0xf4e59f2d40b27d38!2sDenta%20Me!5e0!3m2!1sen!2s!4v1758722488766!5m2!1sen!2s"
           width="100%"
           height="500"
           loading="lazy"
+        ></iframe> */}
+
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d2994.1377896397717!2d69.29193207605879!3d41.37109097130205!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zNDHCsDIyJzE1LjkiTiA2OcKwMTcnNDAuMiJF!5e0!3m2!1sen!2s!4v1758723184815!5m2!1sen!2s"
+          width="100%"
+          height="500"
         ></iframe>
       </section>
       <section
