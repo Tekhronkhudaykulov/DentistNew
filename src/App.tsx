@@ -36,31 +36,34 @@ function App() {
         data-aos-duration="800"
       >
         <div className="absolute inset-0 bg-black opacity-[0.4] "></div>
-        <div className="container mx-auto z-[9999] pt-[10px] ">
-          <div className="flex items-start justify-center z-[9999] relative flex-col md:min-h-[70vh] container-devie">
-            <p className="md:w-[500px] text-white w-[250px] md:text-[60px] text-[30px] font-bold ">
+        <div className="container mx-auto z-[9999] pt-2 px-2">
+          <div className="flex items-start justify-center z-[9999] relative flex-col min-h-[50vh] md:min-h-[70vh] container-devie">
+            <p className="w-[90%] md:w-[500px] text-white text-[24px] md:text-[60px] font-bold leading-tight">
               Круглосуточная стоматология в Ташкенте | 24/7
             </p>
-            <p className=" md:text-[35px] text-white text-[20px] font-bold">
-              {/* зрослая стоматология */}
+            <p className="text-[18px] md:text-[35px] text-white font-bold mt-2">
+              {/* взрослая стоматология */}
             </p>
-            <p className="text-[12px] md:text-[18px] text-white md:block  md:w-[1000px] mt-[20px] md:leading-[30px]">
+            <p className="text-[12px] md:text-[18px] text-white md:block w-full md:w-[1000px] mt-3 md:leading-[30px] leading-[18px]">
               Стоматология — это отрасль медицины, занимающаяся диагностикой,
               лечением и профилактикой заболеваний зубов, дёсен и полости рта.
               Она охватывает широкий спектр направлений, включая
               терапевтическую, хирургическую, ортопедическую, ортодонтическую и
               детскую стоматологию.
             </p>
-            <div className="md:flex items-center justify-between w-full  md:mt-[20px]">
-              <div className="flex items-center md:gap-x-[10px] gap-x-[5px] md:mt-[10px] mt-[20px] md:text-[20px] text-[16px] w-max md:h-[60px] h-[50px] bg-blue-500 md:px-[35px] px-[10px]  md:py-[20px] py-[10px] text-white rounded-[12px]">
+            <div className="flex flex-col md:flex-row items-start md:items-center justify-between w-full mt-4 md:mt-5 gap-y-3">
+              <div className="flex items-center gap-x-2 md:gap-x-3 text-[16px] md:text-[20px] w-full md:w-max h-[45px] md:h-[60px] bg-blue-500 px-4 md:px-9 py-2 md:py-5 text-white rounded-[12px] justify-center">
                 <IoIosCall fontSize={20} />
-                <a href="tel:+998999527797">Позвонить +998 99 952 77 97</a>
+                <a href="tel:+998999527797" className="whitespace-nowrap">
+                  Позвонить +998 99 952 77 97
+                </a>
               </div>
-              <div className="md:mt-0 mt-[20px]">
-                <p className="font-bold text-white text-[30px] ">Office 1</p>
-                {/* <p className="font-bold text-white">
-                  Ориентир, 📌( Мегапланет), 📍Ринок (Ахмад донищ )
-                </p> */}
+              <div>
+                <p className="font-bold text-white text-[14px] md:text-[16px] mt-2 md:mt-0 text-center md:text-left">
+                  Адрес: Юнусабадский район 13-квартал 4-дом Ориентир,📍Ринок
+                  (Ахмад Донищ)
+                </p>
+                <p className="text-white font-bold text-center">Office 1</p>
               </div>
             </div>
           </div>
@@ -81,9 +84,9 @@ function App() {
         ></iframe> */}
 
         <div>
-          <div className="text-[25px] font-semibold text-center bg-blue-500 w-full text-white py-2">
+          {/* <div className="text-[25px] font-semibold text-center bg-blue-500 w-full text-white py-2">
             Office 1
-          </div>
+          </div> */}
           <iframe
             src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d2994.1377896397717!2d69.29193207605879!3d41.37109097130205!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zNDHCsDIyJzE1LjkiTiA2OcKwMTcnNDAuMiJF!5e0!3m2!1sen!2s!4v1758723184815!5m2!1sen!2s"
             width="100%"
