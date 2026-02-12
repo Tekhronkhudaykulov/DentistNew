@@ -37,9 +37,10 @@ function App() {
       >
         <div className="absolute inset-0 bg-black opacity-[0.4] "></div>
         <div className="container mx-auto z-[9999] pt-2 px-2">
-          <div className="flex items-start justify-center z-[9999] relative flex-col min-h-[50vh] md:min-h-[70vh] container-devie">
-            <p className="w-[90%] md:w-[500px] text-white text-[24px] md:text-[60px] font-bold leading-tight">
-              Круглосуточная стоматология в Ташкенте | 24/7
+          <div className="flex items-start justify-center z-[9999] relative flex-col  md:min-h-[70vh] container-devie">
+            <p className="w-[90%] md:w-[500px] text-white text-[24px] md:text-[45px] font-bold leading-tight">
+              Круглосуточная стоматология в Ташкенте | 24/7 <br /> Детския и
+              Взрослая Стоматология
             </p>
             <p className="text-[18px] md:text-[35px] text-white font-bold mt-2">
               {/* взрослая стоматология */}
@@ -60,10 +61,10 @@ function App() {
               </div>
               <div>
                 <p className="font-bold text-white text-[14px] md:text-[16px] mt-2 md:mt-0 text-center md:text-left">
-                  Адрес: Юнусабадский район 13-квартал 4-дом Ориентир,📍Ринок
-                  (Ахмад Донищ)
+                  Адрес: Юнусабадский район 13-квартал 4-дом Ориентир, 1
+                  (Мегапланет), Ринок (Ахмад донищ )
                 </p>
-                <p className="text-white font-bold text-center">Office 1</p>
+                {/* <p className="text-white font-bold text-center">Office 1</p> */}
               </div>
             </div>
           </div>
