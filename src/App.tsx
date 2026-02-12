@@ -39,7 +39,7 @@ function App() {
         <div className="container mx-auto z-[9999] pt-2 px-2">
           <div className="flex items-start justify-center z-[9999] relative flex-col  md:min-h-[70vh] container-devie">
             <p className="w-[90%] md:w-[500px] text-white text-[24px] md:text-[45px] font-bold leading-tight">
-              Круглосуточная стоматология в Ташкенте | 24/7 <br /> Детския и
+              Круглосуточная стоматология в Ташкенте | 24/7 <br /> Детская и
               Взрослая Стоматология
             </p>
             <p className="text-[18px] md:text-[35px] text-white font-bold mt-2">
@@ -60,7 +60,8 @@ function App() {
                 </a>
               </div>
               <div>
-                <p className="font-bold text-[green] text-[14px] md:text-[16px] mt-2 md:mt-0 text-center md:text-left">
+                <p className="font-bold text-[yellow] text-[14px] md:text-[16px] mt-2 md:mt-0 text-center md:text-left">
+                  <span className="text-[18px] md:text-[22px] mr-1">📍</span>
                   Адрес: Юнусабадский район 13-квартал 4-дом Ориентир, 1
                   (Мегапланет), Ринок (Ахмад донищ )
                 </p>
