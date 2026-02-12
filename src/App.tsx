@@ -60,10 +60,9 @@ function App() {
                 </a>
               </div>
               <div>
-                <p className="font-bold text-white text-[14px] md:text-[16px] mt-2 md:mt-0 text-center md:text-left">
-                  <span className="text-[green]">Адрес</span>: Юнусабадский
-                  район 13-квартал 4-дом Ориентир, 1 (Мегапланет), Ринок (Ахмад
-                  донищ )
+                <p className="font-bold text-[green] text-[14px] md:text-[16px] mt-2 md:mt-0 text-center md:text-left">
+                  Адрес: Юнусабадский район 13-квартал 4-дом Ориентир, 1
+                  (Мегапланет), Ринок (Ахмад донищ )
                 </p>
                 {/* <p className="text-white font-bold text-center">Office 1</p> */}
               </div>
